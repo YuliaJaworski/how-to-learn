@@ -8,22 +8,20 @@
   <title>Научиться учиться</title>
 </head>
 <body>
-  <main class="page">
+  <div class="page">
     <header class="header">
       <div class="logo logo_place_header"></div>
       <h1 class="header__title">Научиться учиться</h1>
       <h2 class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link" href="#">Узнать →</a>
       </h2>
-      <div class="header__main-illustration">
-        <img src="./images/header-image.png" alt="картина" class="main-illustration">
-      </div>
+      <img src="./images/header-image.png" alt="картина 'Опять двойка'" class="header__main-illustration main-illustration">
       <div class="header__square-pic"></div>
     </header>
-    <content>
+    <main class="content">
       <section class="description">
         <div class="two-columns">
-          <h6 class="two-columns__brief">Главные проблемы в обучении</h6>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
               <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. 
                 Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, 
@@ -58,8 +56,6 @@
             <h4 class="table__heading">500 триллионов</h4>
             <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
           </li>
-        </ul>
-        <ul class="table">
           <li class="table__cell">
             <h4 class="table__heading">420 миллионов</h4>
             <p class="table__text">Число взрослых людей моложе 25 лет, 
@@ -86,7 +82,7 @@
         <a class="feynman__link" href="#">Подробнее →</a>
       </section>
       <section class="kayfman">
-        <img src="./images/kaufman-triangle.svg" alt="картина" class="kaufman__triangle">
+        <div class="kaufman__triangle"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <ol class="table table_theme_dark">
@@ -110,8 +106,6 @@
             <h4 class="table__heading table__heading_theme_dark">5</h4>
             <p class="table__text table__text_theme_dark">Приготовьте всё необходимое для занятий.</p>
           </li>
-        </ol>
-        <ol class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h4 class="table__heading table__heading_theme_dark">6</h4>
             <p class="table__text table__text_theme_dark">Устраните препятствия для занятий.</p>
@@ -134,31 +128,31 @@
           </li>
         </ol>
       </section>
-    </content>
+    </main>
     <footer class="footer">
-      <div class="footer__column">
+      <div class="footer__columns">
         <div class="footer__column_content_copyright">
           <div class="logo logo_place_footer"></div>
-          <a class="footer__author">&#64; Виктор Абанькин</a>
+          <p class="footer__author">&#64; Виктор Абанькин</p>
         </div>
         <nav class="footer__column_content_info">
-          <p class="footer__column-heading">О Практикуме</p>
-          <div class="footer__column-links">
-            <a class="footer__column-link" href="#">Главная</a>
-            <a class="footer__column-link" href="#">Концепция</a>
-            <a class="footer__column-link" href="#">Наставники</a>
-          </div>
+          <h2 class="footer__column-heading">О Практикуме</h2>
+          <ul class="footer__column-links">
+            <li class="footer__column-link" href="#">Главная</li>
+            <li class="footer__column-link" href="#">Концепция</li>
+            <li class="footer__column-link" href="#">Наставники</li>
+          </ul>
         </nav>
         <nav class="footer__column_content_social">
-          <p class="footer__column-heading">Соцсети</p>
-          <div class="footer__column-links">
-            <a class="footer__column-link" href="#"><img src="./images/youtube-icon.svg" alt="логотип Youtube" class="footer__social-icon">Youtube</a>
-            <a class="footer__column-link" href="#"><img src="./images/vk_color_white.svg" alt="логотип Вконтакте" class="footer__social-icon">ВКонтакте</a>
-            <a class="footer__column-link" href="#"><img src="./images/tiktok-icon.svg" alt="логотип TikTok" class="footer__social-icon">TikTok</a>
-          </div>
+          <h2 class="footer__column-heading">Соцсети</h2>
+          <ul class="footer__column-links">
+            <li class="footer__column-link" href="#"><img src="./images/youtube-icon.svg" alt="логотип Youtube" class="footer__social-icon">Youtube</li>
+            <li class="footer__column-link" href="#"><img src="./images/vk_color_white.svg" alt="логотип Вконтакте" class="footer__social-icon">ВКонтакте</li>
+            <li class="footer__column-link" href="#"><img src="./images/tiktok-icon.svg" alt="логотип TikTok" class="footer__social-icon">TikTok</li>
+          </ul>
         </nav>
       </div>
     </footer>
-  </main>
+  </div>
 </body>
 </html>
