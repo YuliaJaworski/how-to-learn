@@ -52,11 +52,11 @@
 @import url(../blocks/page/content/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/page/content/khan/buy-link/buy-link.css);
 
-@import url(../blocks/page/content/kayfman/kaufman.css);
-@import url(../blocks/page/content/kayfman/section-title/_theme/section-title_theme_dark.css);
-@import url(../blocks/page/content/kayfman/section-subtitle/_theme/section-subtitle_theme_dark.css);
-@import url(../blocks/page/content/kayfman/table/__cell/_theme/table__cell_theme_dark.css);
-@import url(../blocks/page/content/kayfman/__triangle/kaufman__triangle.css);
+@import url(../blocks/page/content/kaufman/kaufman.css);
+@import url(../blocks/page/content/kaufman/section-title/_theme/section-title_theme_dark.css);
+@import url(../blocks/page/content/kaufman/section-subtitle/_theme/section-subtitle_theme_dark.css);
+@import url(../blocks/page/content/kaufman/table/__cell/_theme/table__cell_theme_dark.css);
+@import url(../blocks/page/content/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/page/content/resources/resources.css);
 @import url(../blocks/page/content/resources/__logo-zone/resources__logo-zone.css);
